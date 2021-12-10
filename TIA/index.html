@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TIA Design Studio</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-expand-xs navbar-dark" > <!--classes are part of bootstrap. navbar-expand-sm: hamburger menu for <lg size only-->
+                <div class="container-fluid navbar-container"> <!--class is part of bootstrap-->
+
+                    <div class="navbar-header"> <!--class is part of bootstrap-->
+                        <a href="index.html" class="float-left d-none d-sm-block"> <!-- d-none d-sm-block: hidden for xs screens only-->
+                            <div id="header-logo">
+                                <img src="images/logo-white.png" id="logo" style="width:94px;height:41px;">
+                            </div>
+                        </a> 
+
+                        <!--hamburger menu , data-target value (#_____) will be the id of elements inside hamburger-->
+                        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- id value (#_____) will be inside hamburger-->
+                        <div class="collapse navbar-collapse menu-position" id="navbarSupportedContent"> <!--container div-->
+
+                        </div>
+
+                        <!--regular non-collapsed menu-->
+                        <div class="row">
+                            <ul class="navbar-nav mr-auto col-lg-12" id="nav-list"> <!--id will be used for styling-->
+                                    <a href = home.html class="nav-link nav-item"> 
+                                        <span>1</span>
+                                        <i class="material-icons">grid_view</i>
+                                        <p>Packages</p>
+                                    </a>
+                                    <a href = home.html class="nav-link nav-item"> 
+                                        <span>2</span>
+                                        <i class="material-icons">microwave</i>
+                                        <p>Kitchen</p>
+                                    </a>
+                                    <a href = home.html class="nav-link nav-item"> 
+                                        <span>3</span>
+                                        <i class="material-icons">shower</i>
+                                        <p>Bathroom</p>
+                                    </a>
+                                    <a href = home.html class="nav-link nav-item"> 
+                                        <span>4</span>
+                                        <i class="material-icons">category</i>
+                                        <p>A La Carte</p>
+                                    </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </nav> 
+        </header>
+
+        
+
+
+        <!--MAIN CONTENT-->
+        <div class="container-fluid" id="main">   
+
+            <div class="row" id="vd">
+                <div class="jumbotron col-md-9">
+                    <img src=images/kitchen.png class="img-fluid mx-auto float-left">
+                </div>
+                <div class="col-md-3" id="materials">
+                    <h2> Choose a Starting Package</h2>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <div class="material-tile">
+                                <img src=images/kitchen.png class="img-fluid mx-auto float-left">
+                                <div class="material-text">
+                                    <span class="material-name">Standard Light</span>
+                                    <br>
+                                    <span class="material-price">Included</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="material-tile">
+                                <img src=images/kitchen.png class="img-fluid mx-auto float-left">
+                                <div class="material-text">
+                                    <span class="material-name">Standard Light</span>
+                                    <br>
+                                    <span class="material-price">Included</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="material-tile">
+                                <img src=images/kitchen.png class="img-fluid mx-auto float-left">
+                                <div class="material-text">
+                                    <span class="material-name">Standard Light</span>
+                                    <br>
+                                    <span class="material-price">Included</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="material-tile">
+                                <img src=images/kitchen.png class="img-fluid mx-auto float-left">
+                                <div class="material-text">
+                                    <span class="material-name">Standard Light</span>
+                                    <br>
+                                    <span class="material-price">Included</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!-- end of materials-->
+            </div> <!--end of VD-->
+
+
+
+        
+        </div> <!--end of main-->  
+
+
+
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 suite-info">
+                        <span>
+                            HOURS: <br>
+                            Sun-Thurs:   7:00 AM - 9:00 PM <br>
+                            Fri:   CLOSED <br>
+                            Saturday:   8:00 AM - 10:00 PM
+                        </span>
+                    </div>
+                    <hr class="col-xs-12 d-block d-sm-none">
+                    <div class="col-sm-4 col-xs-12 footer-info">
+                        <span>
+                            ADDRESS: <br>
+                            123 Sunshine Blvd. <br>
+                            Lalala, ON <br>
+                            A1A 1A1
+                        </span>
+                    </div>
+                    <hr class="col-xs-12 d-block d-sm-none">
+                    <div class="col-sm-4 col-xs-12 footer-info">
+                        <span>
+                            "Love it, delicious" <br><br>
+                            "The BEST cupcake I've ever had!"
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script scr="js/script.js"></script>
+
+    </body>
+
+</html>
+

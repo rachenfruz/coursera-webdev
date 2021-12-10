@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nardo's Bakery</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="test-style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-expand-lg navbar-dark" > <!--classes are part of bootstrap. navbar-expand-sm: hamburger menu for <lg size only-->
+                <div class="container navbar-container"> <!--class is part of bootstrap-->
+
+                    <div class="navbar-header"> <!--class is part of bootstrap-->
+                        <a href="index.html" class="float-left d-none d-sm-block"> <!-- d-none d-sm-block: hidden for xs screens only-->
+                            <div id="header-logo">
+                                <img src="images/logo.png" id="logo">
+                            </div>
+                        </a> 
+                        <div class="navbar-brand"> <!--class is part of bootstrap-->
+                            <a href="index.html">
+                                <h1> Nardo's Amazing Bakery </h1>
+                            </a>
+                            <span class="navbar-slogan"> Cupcakes Cupcakes Cupcakes</span>
+                        </div>
+
+                        <!--hamburger menu , data-target value (#_____) will be the id of elements inside hamburger-->
+                        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- regular non-collapsed menu, id value (#_____) will be inside hamburger-->
+
+                        <div class="collapse navbar-collapse menu-position" id="navbarSupportedContent"> <!--container div-->
+                            <ul class="navbar-nav mr-auto" id=nav-list> <!--id will be used for styling-->
+                                <br class="d-none d-lg-block">
+                                <br class="d-none d-lg-block">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="menu-categories.html" style="background-color: #E5DFDC;"> 
+                                        <i class="material-icons"> restaurant_menu </i>
+                                        <br class="d-none d-lg-block">
+                                        Menu
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"> 
+                                        <i class="material-icons"> info </i>
+                                        <br class="d-none d-lg-block">
+                                        About 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="awards.html"> 
+                                        <i class="material-icons"> emoji_events </i>
+                                        <br class="d-none d-lg-block">
+                                        Awards 
+                                    </a>
+                                </li>
+                                <li class="d-none d-lg-block" id="phone">
+                                    <i class="material-icons"> phone </i>
+                                    <a href="tel:123-456-7890">
+                                        <span> 123-456-7890  </span>
+                                    </a>
+                                    <p> WE DELIVER! </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="phonecall round d-block d-md-none">
+                    <i class="material-icons"> phone </i>
+                    <a href="tel:123-456-7890" id="phonecall">
+                        <span> 123-456-7890  </span>
+                    </a>
+                    <p> WE DELIVER! </p>
+                </div>  
+            </nav> 
+        </header>
+
+
+        <!--MAIN CONTENT-->
+        <div class="container" id="main">
+            <h2 id="menu-cat-title" class="text-center"> Menu Categories </h2>
+            <div class="row" id="mains">
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <img width="180" height="180" src="images/menu.jpg">
+                            <span>CUPCAKES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>COOKIES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>PASTRIES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>DRINKS</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>BROWNIES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>CAKES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>PIES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>TARTS</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="single-category.html">
+                        <div class="cat-tile">
+                            <span>DONUTS</span>
+                        </div>
+                    </a>
+                </div>
+            </div> <!--end of tiles-->
+        </div> <!--end of main-->  
+
+
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 footer-info">
+                        <span>
+                            HOURS: <br>
+                            Sun-Thurs:   7:00 AM - 9:00 PM <br>
+                            Fri:   CLOSED <br>
+                            Saturday:   8:00 AM - 10:00 PM
+                        </span>
+                    </div>
+                    <hr class="col-xs-12 d-block d-sm-none">
+                    <div class="col-sm-4 col-xs-12 footer-info">
+                        <span>
+                            ADDRESS: <br>
+                            123 Sunshine Blvd. <br>
+                            Lalala, ON <br>
+                            A1A 1A1
+                        </span>
+                    </div>
+                    <hr class="col-xs-12 d-block d-sm-none">
+                    <div class="col-sm-4 col-xs-12 footer-info">
+                        <span>
+                            "Love it, delicious" <br><br>
+                            "The BEST cupcake I've ever had!"
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script scr="js/script.js"></script>
+
+    </body>
+
+</html>
+

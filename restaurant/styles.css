@@ -1,0 +1,25 @@
+body {
+    background-color: #E5DFDC;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+/** HEADER **/
+.header-nav {
+    background-color: E5DFDC;
+}
+
+.header-logo {
+    margin: 20px;
+    background-color: white;
+}
+
+
+.float-left {
+    float: left;
+}
+
+h1 {
+    color: yellow;
+}
