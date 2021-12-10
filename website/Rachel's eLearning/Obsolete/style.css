@@ -1,0 +1,30 @@
+h1 {
+    text-decoration: underline;
+    border: 2px  dotted rebeccapurple;
+    }
+h1:hover {
+    color:orangered;
+    }
+h2 {
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    }
+p {
+    color: navy}
+li {
+    color:lightcoral}
+a:link, a:visited {
+    border: 2px dotted royalblue;
+    color:cornflowerblue;
+    }
+a:hover, a:active {
+    border: 2px solid plum;
+    color:purple
+    }
+body {
+    background-color: honeydew;
+}

@@ -1,0 +1,313 @@
+
+/** GLOBAL **/
+
+body {
+    background-color: #E5DFDC;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #E5DFDC;
+}
+
+a {
+    text-decoration: none;
+    color: #dfa5a6;
+}
+
+a:hover {
+    color: #dfa5a6;
+    font-weight: bold;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/** HEADER **/
+
+.navbar-dark {
+    background-color: #004452;
+}
+
+.navbar-brand a {     /* restaurant name */
+    font-family: 'Praise', cursive;
+    text-shadow: 10px 10px 10px black;
+}
+
+.navbar-slogan {           /* slogan*/
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#header-logo {
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-container {
+    margin: 0px;
+}
+
+h1 {
+    margin:0;
+    font-size:2em;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* LARGE */
+@media (min-width:992px) {
+    .menu-position {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+/* < LARGE */
+@media (max-width:991px) {
+    .menu-position {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+}
+/* XS */
+@media (max-width:768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    #header-logo {
+        margin: 5px 5px 5px 0px;
+        padding: 5px;
+    }
+    
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+li.nav-item {
+    text-align:center;
+    padding: 0px 10px 0px 10px;
+    color: #dfa5a6;
+    background-color: #004452;;
+}
+
+i.material-icons {
+    color: #dfa5a6;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #dfa5a6;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dfa5a6;
+}
+
+#nav-list {
+    border-radius: 5px ;
+}
+
+ #nav-list a:hover {
+    background-color: #E5DFDC;
+}
+
+.nav-link {
+    border-radius: 5px;
+}
+
+#phone {
+    text-align: right;
+    color: #E5DFDC;
+    padding: 5px 10px 0px 10px;
+}
+#phone a {
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggler {
+    clear: both;
+}
+
+/* JUMBOTRON */
+
+.round {
+    border-radius: 10px;
+}
+
+.jumbotron {
+    text-align:center;
+    margin: 25px 0px 25px 0px;
+    border: 1px solid #004452;
+}
+
+.phonecall {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #004452;
+    width: 100%;
+}
+
+#phonecall a {
+    vertical-align: middle;
+    font-size: 1.5em;
+    
+}
+
+/* HOME PAGE */
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;   /* sets anchor for child elements */
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #004452;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #004452;
+}
+
+#menu-tile {
+    background: url('images/menu.jpg') no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url('images/specials.jpg') no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #004452;
+    opacity: 0.75;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+/* FOOTER */
+.panel-footer{
+    background-color: #004452;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-info {
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 20px 0px;
+}
+
+/* MENU CATEGORIES */
+#menu-cat-title {
+    color: #004452;
+    font-family: 'Praise', cursive;
+    margin: 20px;
+}
+
+.cat-tile {
+    min-height: 180px;
+    width: 180px;
+    margin: 0px auto 15px;
+    position: relative;   /* sets anchor for child elements */
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #004452;
+}
+
+.cat-tile span {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #004452;
+    opacity: 0.75;
+    padding: 0px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-size: 1em;
+}
+
+.cat-tile:hover {
+    box-shadow: 0 1px 5px 1px #004452;
+}
+
+/* SINGLE CATEGORY */
+.single-img {
+    margin: 10px auto 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #004452;
+    float:left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.single-img img {
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.single-item {
+    color: #004452;
+}
+
+.single-text {
+    float:right;
+}
+
+.single-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px 0px 10px;
+}
+
+.single-desc {
+    margin-left: 10px;
+}
+
+.single-num {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #004452;
+    background-color: #dfa5a6;
+    border-radius: 20px;
+    padding: 5px 5px 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px #004452;
+    font-size: 14px;
+
+}

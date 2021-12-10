@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5DFDC;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #004452;
+}h1 {
+    font-size: 40px;
+    text-transform:capitalize;
+    text-align: center;
+    font-weight:bold;
+    }
+h2 {
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    }
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: navy}
+li {
+    color:lightcoral
+}
+div a:link, a:visited {
+    border: 2px dotted royalblue;
+    color:cornflowerblue;
+    text-decoration: none;
+    }
+div a:hover, a:active {
+    border: 2px solid plum;
+    color:purple
+    }
+
+div.list {
+    margin: 30px;
+    padding: 30px;
+    background-color: lavender;
+    border: 5px solid black;
+}
+nav {
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    background-color: #405F54;
+    text-align:center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+nav a:link, a:visited {
+    background-color: #405F54;
+    color: #BFC9BA;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    width: 200px;
+    float: left;
+    border: none;
+}
+nav a:hover, a:active {
+    background-color: #7F9376;
+    color: white;
+}
+.title {
+    margin: 30px;
+}
+#centred {
+    width: 800px;
+    margin: auto;
+    position:relative;
+}
+.checklist {
+    margin:20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BFC9BA;
+    width: 350px;
+    height: 275px;
+}
+#list1 {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+#list2 {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+.check {
+    border: 2px solid #004452;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #E5DFDC;
+    box-shadow: none;
+    border: none;
+}
+.check:checked {
+    background-color: #405F54;
+}
+.item {
+    background-color: #E5DFDC;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    position:relative;
+}
+.radio {
+    margin: 10px;
+}

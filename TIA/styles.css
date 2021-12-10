@@ -1,0 +1,215 @@
+
+/** GLOBAL **/
+
+body {
+    background-color: #2D2F34;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/** HEADER **/
+
+.navbar-dark {
+    background-color: #16171A;
+    height: 142px;
+}
+
+#header-logo {
+    margin: 30px 10px 10px 162px;
+    padding: 10px;
+}
+
+.navbar-container {
+    margin: 0px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    border: none;
+    color: white;
+}
+
+i.nav-item {
+    text-align:center;
+    padding: 0px 50px 0px 50px;
+}
+
+.nav-item {
+    padding-right:0;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #444444;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    position:relative;
+    height: 50px;
+}
+
+/** room numbers **/
+.nav-link span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #444444;
+    color: white;
+}
+
+/** room icons **/
+i.material-icons {
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+/** room name **/
+.nav-link p {
+    position: absolute;
+    left: 100px;
+}
+
+#nav-list {
+    border-radius: 5px;
+    width: 1200px;
+    margin-left: 50px;
+}
+
+ #nav-list a:hover {
+    background-color: #0FA5AB;
+}
+
+.nav-link {
+    border-radius: 50px;
+}
+
+
+.navbar-header button.navbar-toggler {
+    clear: both;
+}
+
+
+/* MAIN */
+
+#main {
+    padding:0;
+    margin: 0px;
+}
+
+#vd {
+    width: auto;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.jumbotron {
+    text-align:center;
+    padding:0;
+    height: 50%;
+}
+
+.jumbotron img {
+    object-fit: cover;
+    height: 50%;
+    width:100%;
+}
+
+h2{
+    font-size:  26px;
+    text-align: center;
+    margin: 20px;
+ }
+
+/* MATERIALS */
+
+
+.material-tile {
+    height: 88px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:25px;
+    position: relative;   /* sets anchor for child elements */
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1px solid #999999;
+}
+
+.material-tile img {
+    object-fit: cover;
+    height: 100%;
+    width:50%;
+}
+
+.material-text {
+    vertical-align: middle;
+    height: 88px;
+}
+
+.material-name {
+    color:white;
+    margin: 10px;
+    position: absolute;
+    font-size: 24;
+}
+
+.material-price {
+    color:#0FA5AB;
+    margin: 10px;
+    font-size:14;
+    position: absolute;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #004452;
+}
+
+
+
+/* FOOTER */
+.panel-footer{
+    background-color: white;
+    text-align: center;
+    height:122px;
+}
+
+.footer-info {
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 20px 0px;
+}
