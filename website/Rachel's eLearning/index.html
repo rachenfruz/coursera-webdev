@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title> TEST</title>
+        <script src="js/script.js"></script>
+        <link href="css/popup.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body >
+        <h1> Virtual Decorator </h1>
+        <p id="upgLabel">Upgrade Amount:</p>
+        <input type="text" id="upgTotal" placeholder="Upgrade Amount">
+        <br><br>
+        <!-- POP UP-->
+        <div id="mortgagePopup">
+            <!-- Popup Div Starts Here -->
+            <div id="mortgageForm">
+            <!-- Mortgage Form -->
+                <form action="#" id="form" method="post" name="form">
+                    <i class="material-icons" id="mortgageClose" onclick ="popup_hide()">close</i>
+                    <!-- <img id="close" src="images/3.png" onclick ="div_hide()"> -->
+                    <h2>Mortgage Calculator</h2>
+                    <hr>
+                    <p id="printUpg"></p>
+                    <!-- <p>Spend Amount: </p><input type="text" placeholder="$" id="upgAmt"> -->
+                    
+                    <!-- <script>
+                        var upgInput = document.getElementById("upgTotal").value;
+                        document.getElementById("printUpg").innerHTML = "hello" + upgInput;
+                        console.log(upgInput);
+                    </script> -->
+
+                    <p>Annual Interest Rate: </p><input type="text" placeholder="%" id="rate">
+            
+                    <p>Mortgage Ammortization Period: </p><input type="text" placeholder="Years" id="term">
+            
+                    <br>
+                    <div id="mortgageFrequency">
+                        Mortgage Payment Frequency? <br><br>
+                        <input type="radio" class="radio" name="frequency" id="Weekly"> <label> Weekly </label> <br>
+                        <input type="radio" class="radio" name="frequency" id="Bi-Weekly"> <label> Bi-Weekly </label> <br>
+                        <input type="radio" class="radio" name="frequency" id="Semi-Monthly"> <label> Semi-Monthly </label> <br>
+                        <input type="radio" class="radio" name="frequency" id="Monthly"> <label> Monthly </label> <br>
+                    </div>
+            
+                    <br><br
+                    >
+                    <button type="button" onclick="mortgageCalc();">GO!</button>
+            
+                    <br><br>
+            
+                    <p id="output"></p>
+                </form>
+            </div>
+            <!-- Popup Div Ends Here -->
+        </div>
+
+        <!-- Display Popup Button -->
+        <button id="popup" onclick="popup_show()">Mortgage Calculator</button>
+
+<!--
+
+        <p>Spend Amount: </p><input type="text" placeholder="$" id="upgAmt">
+
+        <p>Annual Interest Rate: </p><input type="text" placeholder="%" id="rate">
+
+        <p>Mortgage Ammortization Period: </p><input type="text" placeholder="Years" id="term">
+
+        <br><br>
+        <div class="col-lg-4 col-md-6 checklist col-xs-1">
+            Mortgage Payment Frequency? <br><br>
+            <input type="radio" class="radio" name="frequency" id="Weekly"> <label> Weekly </label> <br>
+            <input type="radio" class="radio" name="frequency" id="Bi-Weekly"> <label> Bi-Weekly </label> <br>
+            <input type="radio" class="radio" name="frequency" id="Semi-Monthly"> <label> Semi-Monthly </label> <br>
+            <input type="radio" class="radio" name="frequency" id="Monthly"> <label> Monthly </label> <br>
+        </div>
+
+        <br><br
+        >
+        <button type="button" onclick="mortgageCalc();">GO!</button>
+
+        <br><br>
+
+        <p id="output"></p>
+
+    -->
+
+    </body>
+</html>
