@@ -7,11 +7,13 @@ body {
     background-color: #E5DFDC;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     color: #004452;
+    text-align: center;
 }
 
 h1 {
     margin: 10px;
     padding: 10px;
+    text-align: center;
 }
 
 h2 {
@@ -41,6 +43,7 @@ input[type=text] {
 
 #upgTotal {
     width: 300px;
+    margin: auto;
 }
 
 button {
@@ -58,7 +61,8 @@ button {
 
 #upgLabel {
     font-size: 18px;
-    color: black;
+    color: #004452;
+    text-align: center;
 }
 
 /*----------------------------------------------
@@ -73,7 +77,9 @@ left:0;
 display:none;
 position:fixed;
 background-color: black;
-overflow:auto
+overflow:auto;
+text-align: left;
+
 }
 
 #mortgageClose {

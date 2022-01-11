@@ -53,7 +53,10 @@ function mortgageCalc () {
     var pmt = (PV * i * Math.pow(1 + i, n)) / (Math.pow(1 + i,n) - 1);
     console.log(pmt);
 
-    document.getElementById("output").innerHTML = "Your mortgage will increase by: $" + Math.round(pmt*100)/100 + " per " + t + " payment!";
+    var upgInput = document.getElementById("upgTotal").value;
+    console.log(upgInput);
+
+    document.getElementById("output").innerHTML = "If you spend $" + upgInput + " on upgrades, your mortgage will increase by $" + Math.round(pmt*100)/100 + " per " + t + " payment!";
 };
 
 
