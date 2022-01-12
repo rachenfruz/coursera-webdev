@@ -1,1 +1,31 @@
+PAT
 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
+
+SSH
+Your identification has been saved in /Users/rachelfernandez/.ssh/id_ed25519
+Your public key has been saved in /Users/rachelfernandez/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:6iTe5/HH9SHMYutw2lfnAZfeGAYuVIDncDlqjrq16qU fernandez.rachelc@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|         ..+.    |
+|        o * .    |
+|         B o .  .|
+|        o o ..oo |
+|       +S  .o.+o.|
+|      ...  o +o=o|
+|    ..= ...oo.oo+|
+|   ..O ..o=.o.  o|
+|   .Eo+o..o+.    |
++----[SHA256]-----+
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAqwfjYBq
+xp6cI/4TS7ZyzqAAAAEAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIN3ZdsvPHOCaaDjj
+19ujWt777s/qjtLWhMzAM7dUttTWAAAAoC58hD/uqREk0OK+KMo1cEry8VBmIqI67SFH8J
+iV0wIB+U1KxEB24q0lzWfYeCssJt2GaOm93iC+9hFsZbgNirDouP+xiMqgnehGp/Bbwqyt
+mWKX3Fme+UGXJA9SpPQWtQyFNCOOcr5EkN+V0GZarUpOXcc2ZYB/vbVt6101Eh9UwoBEGN
+Syk7/kGuC354To0KGFVMsCaH2t3ulA+1ommHs=
+-----END OPENSSH PRIVATE KEY-----
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN3ZdsvPHOCaaDjj19ujWt777s/qjtLWhMzAM7dUttTW fernandez.rachelc@gmail.com
