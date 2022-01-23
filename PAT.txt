@@ -1,5 +1,5 @@
 PAT
-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
+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
 
 SSH
 Your identification has been saved in /Users/rachelfernandez/.ssh/id_ed25519
